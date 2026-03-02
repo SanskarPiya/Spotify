@@ -28,6 +28,7 @@ body {
   border-radius: 1rem;
   overflow: auto;
   margin-left: 0.5rem;
+  background: linear-gradient(to bottom, #232323, transparent);
 }
 
 .music-player {
@@ -143,4 +144,61 @@ a {
 
 .badge:hover {
   transform: scale(1.05);
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.75rem;
+  justify-content: space-between;
+}
+
+.sticky-nav-icons img {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+
+.sticky-nav-icons img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.sticky-nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sticky-nav-options button {
+  margin-top: 0;
+  padding: 0.35rem 1rem;
+}
+
+.sticky-nav-options > i {
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+
+.install-btn {
+  color: white;
+  background-color: #000000;
+}
+
+.badge i {
+  margin-right: 0.35rem;
+}
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
 }
