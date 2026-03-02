@@ -28,6 +28,7 @@ body {
   border-radius: 1rem;
   overflow: auto;
   margin-left: 0.5rem;
+  height: calc(100vh - 4.5rem);
   background: linear-gradient(to bottom, #232323, transparent);
 }
 
@@ -36,7 +37,7 @@ body {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  height: 72px;
+  height: 4.5rem;
 }
 
 .nav {
@@ -147,6 +148,7 @@ a {
 }
 
 .sticky-nav {
+  z-index: 999;
   position: sticky;
   top: 0;
   background-color: #232323;
@@ -208,7 +210,7 @@ a {
 }
 
 .card1_section {
-  margin-top: 1.15rem;
+  margin: 1.15rem 0;
 }
 
 .card1_title {
@@ -245,6 +247,7 @@ a {
 .popular_artists {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .singer_container {
@@ -254,6 +257,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
+  margin-bottom: 1rem;
 }
 
 .singer_container:hover {
@@ -277,7 +281,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.25rem;
+  gap: 0.4rem;
   color: #fff;
 }
 
@@ -324,4 +328,8 @@ a {
 .singer_container:hover .play_symbol {
   opacity: 1;
   bottom: 5px;
+}
+
+.recently_played_img {
+  border-radius: 1rem;
 }
