@@ -1,13 +1,13 @@
 * {
   font-family: "Montserrat", sans-serif;
-  margin: 0px;
-  padding: 0px;
 }
 
 body {
   background-color: #000;
   color: #fff;
   overflow: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main {
@@ -107,4 +107,40 @@ a {
 
 .icons i:hover {
   opacity: 1;
+}
+
+.box {
+  height: 8rem;
+  background-color: #232323;
+  border-radius: 0.75rem;
+  margin: 0.5rem 0 1.25rem 0;
+  padding: 0.5rem 1.25rem 0.85rem 1rem;
+}
+
+.box-p1 {
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.box-p2 {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.badge {
+  background-color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: fit-content;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.badge:hover {
+  transform: scale(1.05);
 }
