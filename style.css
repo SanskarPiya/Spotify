@@ -149,7 +149,7 @@ a {
 .sticky-nav {
   position: sticky;
   top: 0;
-  /* background-color: pink; */
+  background-color: #232323;
   display: flex;
   align-items: center;
   padding: 1rem 0.75rem;
@@ -201,4 +201,127 @@ a {
   .hide {
     display: none;
   }
+}
+
+.cards {
+  padding: 0rem 1.25rem;
+}
+
+.card1_section {
+  margin-top: 1.15rem;
+}
+
+.card1_title {
+  display: Flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0rem 1.5rem;
+}
+
+.card1_title h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card1_title h1:hover {
+  text-decoration: underline;
+}
+
+.card1_title a {
+  font-size: 0.75rem;
+  margin: 1rem 0rem;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card1_title a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.popular_artists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.singer_container {
+  display: inline-block;
+  padding: 12px 10px 15px 10px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.singer_container:hover {
+  background-color: #232323;
+}
+
+.singer_image {
+  height: 9.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.singer_container:hover .singer_image {
+  box-shadow: 0px 0px 20px 7px #121212;
+}
+
+.singer_details {
+  margin-top: 0.75rem;
+  margin-left: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  color: #fff;
+}
+
+.singer_name {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.singer_role {
+  font-size: 0.8rem;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.image_play {
+  position: relative;
+}
+
+.play_symbol {
+  background-color: #1ed760;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -20px;
+  right: 1px;
+  opacity: 0;
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.play_symbol:hover {
+  transform: scale(1.05);
+}
+
+.play_triangle {
+  font-size: 1rem;
+  color: #000;
+}
+
+.singer_container:hover .play_symbol {
+  opacity: 1;
+  bottom: 5px;
 }
