@@ -555,5 +555,28 @@ ul {
 
 .controls {
   width: 25%;
-  background-color: #1ed760;
+  /* background-color: #1ed760; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controls i {
+  cursor: pointer;
+  opacity: 0.65;
+  transition: all 0.2s ease;
+}
+
+.controls_icon {
+  height: 1.2rem;
+  cursor: pointer;
+  opacity: 0.65;
+  transition: all 0.2s ease;
+}
+
+.controls i:hover,
+.controls_icon:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
