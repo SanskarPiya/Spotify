@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Spotify</title>
+    <link rel="stylesheet" href="loginPage.css" />
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="allElementContainer">
+        <div class="loginInfo">
+          <div class="logo-container">
+            <img src="./assets/spotify-icon.png" class="logo" />
+          </div>
+          <div class="loginHeading">Log in to Spotify</div>
+        </div>
+        <div class="continueWith">
+          <div class="continueGoogle signin">
+            <div class="continue-first">
+              <img src="./assets/google-icon.webp" class="image-icons" />
+            </div>
+            <div class="continue-second">Continue with Google</div>
+          </div>
+          <div class="continuefacebook signin">
+            <div class="continue-first">
+              <img src="./assets/facebook-icon.webp" class="image-icons" />
+            </div>
+            <div class="continue-second facebookContinue">
+              Continue with Facebook
+            </div>
+          </div>
+          <div class="continueApple signin">
+            <div class="continue-first">
+              <img src="./assets/apple-icon.png" class="image-icons" />
+            </div>
+            <div class="continue-second appleContinue">Continue with Apple</div>
+          </div>
+        </div>
+        <form>
+          <div class="form-type">
+            <div class="label-container">
+              <label class="form-label-first">Email or username</label>
+            </div>
+            <input
+              class="formInput"
+              placeholder="Email or username"
+              type="email"
+              required
+            />
+          </div>
+
+          <div class="form-type">
+            <div class="label-container">
+              <label class="form-label-second">Password</label>
+            </div>
+            <input
+              class="formInput"
+              placeholder="Password"
+              type="password"
+              required
+            />
+          </div>
+
+          <div class="button-container">
+            <button type="submit">Log In</button>
+          </div>
+        </form>
+
+        <div class="forgotPassword">
+          <a href="#" class="upperAnchor">Forgot your password?</a>
+        </div>
+
+        <div class="signUp">
+          <p class="signUp-first">
+            Don't have an account?
+            <a class="upperAnchor" href="#">Sign up for Spotify</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerInfo">
+        This site is protected by reCAPTCHA and the Google
+        <a href="#" class="footerAnchor">Privacy Policy</a>
+        and
+        <a href="#" class="footerAnchor">Terms of Service</a>
+        apply.
+      </div>
+    </footer>
+  </body>
+</html>
