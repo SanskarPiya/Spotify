@@ -1,0 +1,32 @@
+[
+  {
+    "image": "popular_artist1.jpg",
+    "name": "Arijit Singh",
+    "role": "Artist"
+  },
+  {
+    "image": "popular_artist2.jpg",
+    "name": "John Rai",
+    "role": "Artist"
+  },
+  {
+    "image": "popular_artist3.jpg",
+    "name": "The Elements",
+    "role": "Artist"
+  },
+  {
+    "image": "popular_artist4.jpg",
+    "name": "Tribal Rain",
+    "role": "Artist"
+  },
+  {
+    "image": "popular_artist5.jpg",
+    "name": "Oasis Thapa",
+    "role": "Artist"
+  },
+  {
+    "image": "popular_artist6.jpg",
+    "name": "Kuma Sagar",
+    "role": "Artist"
+  }
+]

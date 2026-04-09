@@ -81,108 +81,22 @@
             </div>
 
             <div class="popular_artists">
-              <!-- First Singer Card -->
+            <% for (popArtist of popularArtists) {%>
               <div class="singer_container">
                 <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist1.jpg"
-                  />
+                  <img class="singer_image" src="../assets/<%=popArtist.image%>">
                   <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
+                  <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                  <div class="singer_details">
+                    <div class="singer_name"><%=popArtist.name%></div>
+                    <div class="singer_role"><%=popArtist.role%></div>
                   </div>
                 </div>
-                <div class="singer_details">
-                  <div class="singer_name">Arijit Singh</div>
-                  <div class="singer_role">Artist</div>
-                </div>
               </div>
-
-              <!-- Second Singer Card -->
-              <div class="singer_container">
-                <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist2.jpg"
-                  />
-                  <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
-                  </div>
-                </div>
-                <div class="singer_details">
-                  <div class="singer_name">John Rai</div>
-                  <div class="singer_role">Artist</div>
-                </div>
-              </div>
-
-              <!-- Third Singer Card  -->
-              <div class="singer_container">
-                <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist3.jpg"
-                  />
-                  <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
-                  </div>
-                </div>
-                <div class="singer_details">
-                  <div class="singer_name">The Elements</div>
-                  <div class="singer_role">Artist</div>
-                </div>
-              </div>
-
-              <!-- Fourth Singer Card -->
-              <div class="singer_container">
-                <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist4.jpg"
-                  />
-                  <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
-                  </div>
-                </div>
-                <div class="singer_details">
-                  <div class="singer_name">Tribal Rain</div>
-                  <div class="singer_role">Artist</div>
-                </div>
-              </div>
-
-              <!-- Fifth Singer Card -->
-              <div class="singer_container">
-                <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist5.jpg"
-                  />
-                  <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
-                  </div>
-                </div>
-                <div class="singer_details">
-                  <div class="singer_name">Oasis Thapa</div>
-                  <div class="singer_role">Artist</div>
-                </div>
-              </div>
-
-              <!-- Sixth Singer Card -->
-              <div class="singer_container">
-                <div class="image_play">
-                  <img
-                    class="singer_image"
-                    src="./assets/popular_artist6.jpg"
-                  />
-                  <div class="play_symbol">
-                    <i class="fa-solid fa-play play_triangle"></i>
-                  </div>
-                </div>
-                <div class="singer_details">
-                  <div class="singer_name">Kuma Sagar</div>
-                  <div class="singer_role">Artist</div>
-                </div>
-              </div>
+            <% }%>
             </div>
+            
           </section>
           <!-- Recent Played Section  -->
           <section class="recently_played card1_section">
