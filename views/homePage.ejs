@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Spotify | Sanskar Piya</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="./assets/library_icon.png" class="lib-icon" />
+              <a href="#">Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus hide"></i>
+              <i class="fa-solid fa-arrow-right hide"></i>
+            </div>
+          </div>
+          <div class="lib-boxes">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we will help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcast to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="./assets/backward_icon.png" />
+            <img src="./assets/forward_icon.png" class="hide" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge hide">Explore Premium</button>
+            <button class="badge install-btn">
+              <i class="fa-regular fa-circle-down"></i>Install App
+            </button>
+            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </div>
+        <div class="cards">
+          <!-- popular artist -->
+          <section class="card1_section">
+            <div class="card1_title">
+              <h1>Popular Artists</h1>
+              <a>Show all</a>
+            </div>
+
+            <div class="popular_artists">
+              <!-- First Singer Card -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist1.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Arijit Singh</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+
+              <!-- Second Singer Card -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist2.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">John Rai</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+
+              <!-- Third Singer Card  -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist3.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">The Elements</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+
+              <!-- Fourth Singer Card -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist4.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Tribal Rain</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+
+              <!-- Fifth Singer Card -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist5.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Oasis Thapa</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+
+              <!-- Sixth Singer Card -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image"
+                    src="./assets/popular_artist6.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Kuma Sagar</div>
+                  <div class="singer_role">Artist</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Recent Played Section  -->
+          <section class="recently_played card1_section">
+            <div class="card1_title">
+              <h1>Recently Played</h1>
+              <a>Show all</a>
+            </div>
+
+            <div class="popular_artists recently_played_songs">
+              <!-- Recently played 1 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card1img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Top 50-Global</div>
+                  <div class="singer_role">
+                    Your daily update of recent played tracks...
+                  </div>
+                </div>
+              </div>
+              <!-- Recently played 2 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card2img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Mahiye Jinna Sohna</div>
+                  <div class="singer_role">Darshan Raval</div>
+                </div>
+              </div>
+              <!-- Recently played 3 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card3img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Mere Pass Tum Ho</div>
+                  <div class="singer_role">Rahat Fateh Ali Khan</div>
+                </div>
+              </div>
+              <!-- Recently played 4 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card4img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Naa Ready</div>
+                  <div class="singer_role">
+                    Anirudh Ravichander Thapalathy Vijay, Asal...
+                  </div>
+                </div>
+              </div>
+              <!-- Recently played 5 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card5img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Top 50-Global</div>
+                  <div class="singer_role">
+                    Your weekly update of recent played tracks...
+                  </div>
+                </div>
+              </div>
+              <!-- Recently played 6 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/card6img.jpeg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Top 50-India</div>
+                  <div class="singer_role">
+                    Your Weekly update of recent played tracks...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Trending Songs Section  -->
+          <section class="recently_played card1_section">
+            <div class="card1_title">
+              <h1>Trending songs</h1>
+              <a>Show all</a>
+            </div>
+
+            <div class="popular_artists recently_played_songs">
+              <!-- Trending Song 1 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song1.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Najeek</div>
+                  <div class="singer_role">Bartika Eam Rai</div>
+                </div>
+              </div>
+              <!-- Trending Song 2 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song2.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">I Wanna Be Yours</div>
+                  <div class="singer_role">Arctic Monkeys</div>
+                </div>
+              </div>
+              <!-- Trending Song 3 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song3.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">GO</div>
+                  <div class="singer_role">BLACKPINK</div>
+                </div>
+              </div>
+              <!-- Trending Song 4 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song4.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Kasari</div>
+                  <div class="singer_role">Yabesh Thapa</div>
+                </div>
+              </div>
+              <!-- Trending Song 5 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song5.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Khat</div>
+                  <div class="singer_role">Navjot Ahuja</div>
+                </div>
+              </div>
+              <!-- Trending Song 6 -->
+              <div class="singer_container">
+                <div class="image_play">
+                  <img
+                    class="singer_image recently_played_img"
+                    src="./assets/trending_song6.jpg"
+                  />
+                  <div class="play_symbol">
+                    <i class="fa-solid fa-play play_triangle"></i>
+                  </div>
+                </div>
+                <div class="singer_details">
+                  <div class="singer_name">Ko Cha Ra (Official Audio)</div>
+                  <div class="singer_role">John Rai</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer>
+            <div class="line1"></div>
+            <div class="footer-content-section">
+              <ul style="list-style-type: none" class="footer-company">
+                <li style="opacity: 1">Company</li>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+              </ul>
+
+              <ul style="list-style-type: none" class="footer-company">
+                <li style="opacity: 1">Communities</li>
+                <li>For Artists</li>
+                <li>Developers</li>
+                <li>Advertising</li>
+                <li>Investors</li>
+                <li>Vendors</li>
+              </ul>
+
+              <ul style="list-style-type: none" class="footer-company">
+                <li style="opacity: 1">UseFul Links</li>
+                <li>Support</li>
+                <li>Free Mobile App</li>
+                <li>Popular by country</li>
+                <li>Import your music</li>
+              </ul>
+
+              <ul style="list-style-type: none" class="footer-company">
+                <li style="opacity: 1">Spotify Plans</li>
+                <li>Premium Individual</li>
+                <li>Premium Duo</li>
+                <li>Premium Family</li>
+                <li>Premium Student</li>
+                <li>Spotify Free</li>
+              </ul>
+
+              <div class="socials">
+                <div class="insta social">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="twitter social">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="facebook social">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+              </div>
+            </div>
+            <div class="line1"></div>
+            <div class="copyright-section">
+              <p>&copy; 2026 Sanskar Piya</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img src="./assets/album_song.webp" />
+          <div class="album-details">
+            <p class="album-name">Beats</p>
+            <p class="album-singer">Loksi</p>
+          </div>
+          <div class="album-controls">
+            <img src="./assets/album_icon1.png" id="album_icon1" />
+            <img src="./assets/album_icon2.png" id="album_icon2" />
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="./assets/player_icon1.png" class="player-control-icon" />
+            <img src="./assets/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assets/player_icon3.png"
+              class="player-control-icon play-btn"
+            />
+            <img src="./assets/player_icon4.png" class="player-control-icon" />
+            <img src="./assets/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">0:00</span>
+            <input
+              type="range"
+              class="progress-bar"
+              min="0"
+              max="100"
+              step="1"
+            />
+            <span class="tot-time">3:33</span>
+          </div>
+        </div>
+        <div class="controls">
+          <i class="fa-regular fa-square-caret-right"></i>
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-layer-group"></i>
+          <img src="./assets/controls_icon4.png" class="controls_icon" />
+          <i class="fa-solid fa-volume-high"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
